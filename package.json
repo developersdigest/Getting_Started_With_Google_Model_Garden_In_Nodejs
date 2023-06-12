@@ -1,0 +1,15 @@
+{
+  "name": "model-garden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-set-up.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-auth-library": "^8.8.0"
+  }
+}

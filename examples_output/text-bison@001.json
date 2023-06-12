@@ -1,0 +1,9 @@
+{
+  "predictions": [
+    {
+      "content": "The fetch API became natively supported in Node.JS in version 10.0.0, which was released on April 18, 2018.",
+      "citationMetadata": { "citations": [] },
+      "safetyAttributes": { "scores": [], "blocked": false, "categories": [] }
+    }
+  ]
+}

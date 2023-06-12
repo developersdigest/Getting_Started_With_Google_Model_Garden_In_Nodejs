@@ -1,0 +1,9 @@
+{
+  "predictions": [
+    {
+      "content": "```jsx\nimport React, { useState, useEffect } from \"react\";\nimport ReactDOM from \"react-dom\";\nimport { Map, Marker } from \" leaflet\";\n\nconst App = () => {\n  const [zoom, setZoom] = useState(15);\n  const [lat, setLat] = useState(37.775);\n  const [lng, setLng] = useState(-122.418);\n\n  useEffect(() => {\n    const map = new Map({\n      center: [lat, lng],\n      zoom: zoom,\n    });\n\n    map.addLayer(new Marker([lat, lng]));\n\n    ReactDOM.render(<div id=\"map\" />, document.getElementById(\"map\"));\n  }, [zoom, lat, lng]);\n\n  return (\n    <div id=\"map\"></div>\n  );\n};\n\nexport default App;\n```",
+      "citationMetadata": { "citations": [] },
+      "safetyAttributes": { "categories": [], "blocked": false, "scores": [] }
+    }
+  ]
+}
