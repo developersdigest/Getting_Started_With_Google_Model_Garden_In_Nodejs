@@ -1,4 +1,4 @@
-# Getting_Started_With_Google_Model_Garden_In_Nodejs
+# Getting Started With Google's Model Garden In Nodejs
 
 This is the code from my youtube video on how to get started in Google's Model Garden in Vertex AI on Google Cloud.
 
